@@ -95,7 +95,7 @@ def generate_image_to_image(
     prompt: str,
     session_id: str,
     images: list,
-    model: str = "jimeng-4.0",
+    model: str = "jimeng-4.7",
     ratio: str = "1:1",
     resolution: str = "2k",
     intelligent_ratio: bool = False,
@@ -351,8 +351,8 @@ def main():
         subparser.add_argument(
             "--model",
             type=str,
-            default="jimeng-4.5",
-            choices=["jimeng-5.0", "jimeng-4.6", "jimeng-4.5", "jimeng-4.1", "jimeng-4.0", "jimeng-3.1", "jimeng-3.0", "nanobanana"],
+            default="jimeng-4.7",
+            choices=["jimeng-5.0-pro", "jimeng-5.0", "jimeng-4.7", "jimeng-4.6", "jimeng-4.5", "jimeng-4.1", "jimeng-4.0", "jimeng-3.1", "jimeng-3.0", "nanobanana"],
             help="Model to use (default: jimeng-4.5)"
         )
         subparser.add_argument(

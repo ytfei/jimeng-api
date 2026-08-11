@@ -92,7 +92,7 @@ docker run -d \
   --name jimeng-api \
   -p 5100:5100 \
   --restart unless-stopped \
-  ghcr.io/iptag/jimeng-api:latest
+  ghcr.io/ytfei/jimeng-api:latest
 ```
 
 **更新命令**
