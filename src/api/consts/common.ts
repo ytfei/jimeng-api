@@ -45,7 +45,9 @@ export const OMNI_BENEFIT_TYPE_FAST = "dreamina_seedance_20_fast_with_video";
 
 // 图像模型映射
 export const IMAGE_MODEL_MAP = {
-  "jimeng-5.0": "high_aes_general_v50",
+  "jimeng-5.0-pro": "high_aes_general_v50p_large", // 图片5.0 Pro
+  "jimeng-5.0": "high_aes_general_v50", // 图片5.0 Lite
+  "jimeng-4.7": "high_aes_general_v43",
   "jimeng-4.6": "high_aes_general_v42",
   "jimeng-4.5": "high_aes_general_v40l",
   "jimeng-4.1": "high_aes_general_v41",
