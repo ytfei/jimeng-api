@@ -261,6 +261,7 @@ curl -X POST http://localhost:5100/v1/images/generations \
 ```
 
 **Supported Models**:
+- `imagemax-1.0`: Works on all sites, supports `ratio` and `resolution`.
 - `nanobananapro`: International sites only, supports `ratio` and `resolution`.
 - `nanobanana`: International sites only.
 - `jimeng-5.0`: China and Asia international sites (HK/JP/SG).

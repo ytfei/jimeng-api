@@ -275,6 +275,7 @@ curl -X POST http://localhost:5100/v1/images/generations \
 ```
 
 **支持的模型**:
+- `imagemax-1.0`: 国内、国际站均支持，支持 `ratio` 和 `resolution` 参数
 - `nanobananapro`: 仅国际站支持，支持`ratio` 和`resolution`参数
 - `nanobanana`: 仅国际站支持
 - `jimeng-5.0`: 国内站及亚洲国际站 (HK/JP/SG) 支持

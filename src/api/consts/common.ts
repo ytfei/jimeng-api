@@ -45,6 +45,7 @@ export const OMNI_BENEFIT_TYPE_FAST = "dreamina_seedance_20_fast_with_video";
 
 // 图像模型映射
 export const IMAGE_MODEL_MAP = {
+  "imagemax-1.0": "jimeng_smart_image_v1",
   "jimeng-5.0-pro": "high_aes_general_v50p_large", // 图片5.0 Pro
   "jimeng-5.0": "high_aes_general_v50", // 图片5.0 Lite
   "jimeng-4.7": "high_aes_general_v43",
@@ -57,6 +58,7 @@ export const IMAGE_MODEL_MAP = {
 };
 
 export const IMAGE_MODEL_MAP_US = {
+  "imagemax-1.0": "jimeng_smart_image_v1",
   "jimeng-4.5": "high_aes_general_v40l",
   "jimeng-4.1": "high_aes_general_v41",
   "jimeng-4.0": "high_aes_general_v40",
@@ -67,6 +69,7 @@ export const IMAGE_MODEL_MAP_US = {
 
 // 图像模型映射 - 亚洲国际站 (HK/JP/SG)
 export const IMAGE_MODEL_MAP_ASIA = {
+  "imagemax-1.0": "jimeng_smart_image_v1",
   "jimeng-5.0": "high_aes_general_v50",
   "jimeng-4.6": "high_aes_general_v42",
   "jimeng-4.5": "high_aes_general_v40l",
